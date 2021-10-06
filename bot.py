@@ -2,10 +2,10 @@ import os, logging, asyncio
 
 from telegraph import upload_file
 
-from telethon import Button
-from telethon import TelegramClient, events
-from telethon.sessions import StringSession
-from telethon.tl.types import ChannelParticipantsAdmins
+import Button
+import TelegramClient, events
+import StringSession
+import ChannelParticipantsAdmins
 
 logging.basicConfig(
     level=logging.INFO,
